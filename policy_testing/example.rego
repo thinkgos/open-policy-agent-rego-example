@@ -1,4 +1,4 @@
-package authz
+package example
 
 allow {
     input.path == ["users"]
