@@ -1,14 +1,10 @@
 # policy testing
 
-
-
 ## 1. 示例: 权限
 
 ```shell
 opa test -v authz.rego authz_test.rego
 ```
-
-
 
 ## 2. 示例: 简单示例
 
@@ -43,7 +39,6 @@ opa test --format=json example.rego pass_fail_error_test.rego
 ```shell
 opa test -v authz_no_arguments.rego authz_no_arguments_test.rego
 ```
-
 
 ## 5. 示例: 函数不能使用`with`关键字替换
 
